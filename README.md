@@ -8,7 +8,7 @@ The data[api_config_name] parameter specifies the target server, which in this c
 When the admin clicks the link:
 •	The panel sends an HTTP request to the attacker's server (http://attackerserver:port).
 •	The request includes sensitive data, such as the JWT token, in headers
- [!admin token](https://github.com/alirezacsp/Zero/blob/main/image.png)
+![admin token](https://github.com/alirezacsp/Zero/blob/main/image.png)
 Consequences
 This vulnerability has severe security implications, including:
 1.	Authentication Token Leakage:
